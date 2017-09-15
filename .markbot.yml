@@ -1,0 +1,25 @@
+repo: 'html-document-setup'
+canvasCourse: 'web-dev-1'
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+
+html:
+  - path: 'index.html'
+    has:
+      - 'header'
+      - 'header h1'
+      - 'main'
+      - 'main p'
+      - 'main img'
+      - 'main a'
+      - check: 'a[href*="wikipedia.org"]'
+        message: 'The `<a>` hyperlink tag should link to Wikipedia'
+      - check: 'img[src="images/logo.svg"]'
+        message: 'The `<img>` tag isn’t properly linked to the `logo.svg` graphic'
+    search:
+      - 'HTML template'
+      - 'Lorem ipsum'
+      - 'Wikipedia'
