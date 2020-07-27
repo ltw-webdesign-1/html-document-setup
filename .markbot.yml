@@ -1,5 +1,5 @@
-repo: 'html-document-setup'
-canvasCourse: 'web-dev-1'
+repo: "html-document-setup"
+canvasCourse: "web-design-1"
 
 inherit:
   - naming-restrict-live
@@ -7,19 +7,19 @@ inherit:
   - html
 
 html:
-  - path: 'index.html'
+  - path: "index.html"
     has:
-      - 'header'
-      - 'header h1'
-      - 'main'
-      - 'main p'
-      - 'main img'
-      - 'main a'
+      - "header"
+      - "header h1"
+      - "main"
+      - "main p"
+      - "main img"
+      - "main a"
       - check: 'a[href*="wikipedia.org"]'
-        message: 'The `<a>` hyperlink tag should link to Wikipedia'
+        message: "The `<a>` hyperlink tag should link to Wikipedia"
       - check: 'img[src="images/logo.svg"]'
-        message: 'The `<img>` tag isn’t properly linked to the `logo.svg` graphic'
+        message: "The `<img>` tag isn’t properly linked to the `logo.svg` graphic"
     search:
-      - 'HTML template'
-      - 'Lorem ipsum'
-      - 'Wikipedia'
+      - "HTML template"
+      - "Lorem ipsum"
+      - "Wikipedia"
