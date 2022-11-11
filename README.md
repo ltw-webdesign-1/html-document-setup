@@ -8,7 +8,7 @@
 
 This is the starter code for a step-by-step lesson. Each step is described in detail here:
 
-### [**Follow the HTML document setup step-by-step lesson ➔**](https://learn-the-web.algonquindesign.ca/courses/web-design-1/html-document-setup/)
+### [**Follow the HTML document setup step-by-step lesson ➔**](https://learntheweb.courses/courses/web-design-1/html-document-setup/)
 
 ---
 
